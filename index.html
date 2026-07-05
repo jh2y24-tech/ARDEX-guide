@@ -66,6 +66,8 @@ body {
   font-size: 16px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+  word-break: keep-all;
 }
 
 /* ── HEADER ── */
@@ -834,6 +836,22 @@ html { scroll-padding-top: 130px; }
   border: 1px solid var(--border);
 }
 .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.yt-fallback { position: absolute; inset: 0; width: 100%; height: 100%; cursor: pointer; background: #000; }
+.yt-fallback img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.8; }
+.yt-fallback .yt-fallback-play {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 62px; height: 62px; border-radius: 50%;
+  background: rgba(0,0,0,0.62); color: #fff; font-size: 22px;
+  display: flex; align-items: center; justify-content: center; padding-left: 3px;
+  border: 2px solid rgba(255,255,255,0.85); transition: transform 0.15s ease, background 0.15s ease;
+}
+.yt-fallback:hover .yt-fallback-play { transform: translate(-50%, -50%) scale(1.08); background: rgba(0,0,0,0.78); }
+.yt-fallback .yt-fallback-label {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 8px 12px 9px; font-size: 11.5px; line-height: 1.5; color: #fff; font-weight: 600;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  text-align: center;
+}
 
 /* ── PDF DOC LINK ── */
 .doc-block {
@@ -930,6 +948,7 @@ html { scroll-padding-top: 130px; }
   table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   table, table tbody, table tr, table td { display: block; width: 100%; }
   table tr {
+    width: auto;
     border: 1px solid var(--border);
     border-radius: 12px;
     margin: 12px;
@@ -2208,17 +2227,17 @@ html { scroll-padding-top: 130px; }
         </div>
       </div>
       <div class="prod-footer">
-        <div style="font-size:12px;color:var(--text-sub)">
+        <div style="font-size:12px;color:var(--text-sub);margin-bottom:12px">
           <strong style="color:var(--text)">권장 용도:</strong> 아트월 대형 포셀린·박판타일, 외부 대형타일, 샌드위치 패널 등 금속면, 욕실 거울·금속 배관류, 타일·석재 보수, 진동이 많은 곳의 고정물 부착, 컨테이너·사일로·물탱크 실링 &nbsp;|&nbsp;
           <strong style="color:var(--text)">포장:</strong> 300ml/카트리지 · 24카트리지/Box &nbsp;|&nbsp;
           <strong style="color:var(--text)">소요량:</strong> 폭6mm×두께6mm → 9m / 폭10mm×두께5mm → 6m / 폭20mm×두께10mm → 1.5m
         </div>
+        <div class="alert alert-tip" style="margin:0">
+          <div class="alert-icon">⚠️</div>
+          <div class="alert-text"><strong>일반 타일 접착제와의 차이:</strong> SHELTER GLUE는 시멘트계 타일 접착제(X 18·D 30·QUICKBOND 등)를 대체하는 제품이 아닙니다. 대형 타일·바닥 전체 시공에는 등급(C/S)이 있는 시멘트계 접착제를 사용하고, SHELTER GLUE는 <strong>수직 중량물 고정, 이종 재질(금속·유리 등) 접착, 부분 보수, 실링</strong> 등 특수 상황에 한정해 사용하세요. 카트리지 타입으로 <strong>ARDEX POWER GUN</strong> 사용을 권장하며, 무거운 물체를 벽에 시공할 때는 처짐 방지를 위해 아래에서 위로 작업합니다. 개봉한 제품은 즉시 사용하고, 미개봉 상태로 10~25℃ 건조한 곳에서 12개월간 보관 가능합니다.</div>
+        </div>
       </div>
-      <div class="alert alert-tip" style="margin:0 16px 16px">
-        <div class="alert-icon">⚠️</div>
-        <div class="alert-text"><strong>일반 타일 접착제와의 차이:</strong> SHELTER GLUE는 시멘트계 타일 접착제(X 18·D 30·QUICKBOND 등)를 대체하는 제품이 아닙니다. 대형 타일·바닥 전체 시공에는 등급(C/S)이 있는 시멘트계 접착제를 사용하고, SHELTER GLUE는 <strong>수직 중량물 고정, 이종 재질(금속·유리 등) 접착, 부분 보수, 실링</strong> 등 특수 상황에 한정해 사용하세요. 카트리지 타입으로 <strong>ARDEX POWER GUN</strong> 사용을 권장하며, 무거운 물체를 벽에 시공할 때는 처짐 방지를 위해 아래에서 위로 작업합니다. 개봉한 제품은 즉시 사용하고, 미개봉 상태로 10~25℃ 건조한 곳에서 12개월간 보관 가능합니다.</div>
-      </div>
-      <div class="video-block" style="margin:0 16px 16px">
+      <div class="video-block">
         <div class="video-label">▶ SHELTER GLUE 시공 영상</div>
         <div class="video-frame">
           <iframe src="https://www.youtube.com/embed/ghOi6MGKHo0" title="SHELTER GLUE 시공 영상"
@@ -2726,6 +2745,30 @@ function toggleQA(el) {
   ans.classList.toggle('open', !isOpen);
   tog.textContent = isOpen ? '﹀' : '︿';
 }
+// PC에서 파일을 더블클릭해 여는 경우(file:// 프로토콜) 유튜브 영상이 보안 정책상
+// 재생되지 않으므로, 클릭 시 유튜브로 바로 이동하는 미리보기 썸네일로 대체합니다.
+// GitHub Pages 등 https로 접속할 때는 이 로직이 실행되지 않고 기존처럼 그대로 재생됩니다.
+function fixLocalVideoEmbeds() {
+  if (location.protocol !== 'file:') return;
+  document.querySelectorAll('.video-frame iframe').forEach(function (iframe) {
+    var src = iframe.getAttribute('src') || '';
+    var m = src.match(/embed\/([a-zA-Z0-9_-]+)(?:\?start=(\d+))?/);
+    if (!m) return;
+    var id = m[1];
+    var start = m[2];
+    var watchUrl = 'https://www.youtube.com/watch?v=' + id + (start ? '&t=' + start + 's' : '');
+    var title = iframe.getAttribute('title') || '영상';
+    var wrap = document.createElement('div');
+    wrap.className = 'yt-fallback';
+    wrap.innerHTML =
+      '<img src="https://img.youtube.com/vi/' + id + '/hqdefault.jpg" alt="' + title + ' 미리보기" loading="lazy">' +
+      '<div class="yt-fallback-play">▶</div>' +
+      '<div class="yt-fallback-label">PC에서는 미리보기만 지원 — 클릭하면 YouTube에서 재생됩니다</div>';
+    wrap.addEventListener('click', function () { window.open(watchUrl, '_blank'); });
+    iframe.replaceWith(wrap);
+  });
+}
+fixLocalVideoEmbeds();
 </script>
 
 <!-- 내장 PDF 기술자료 (클릭 시 새 탭에서 열림) -->
