@@ -1135,7 +1135,7 @@ html { scroll-padding-top: 130px; }
         <div class="ov-video-sub">아래 단계를 보기 전에 전체 흐름을 먼저 시청하세요</div>
       </div>
       <div class="video-frame">
-        <iframe src="https://www.youtube.com/embed/Y8wEVa4nokk?cc_load_policy=0" title="ARDEX 전체 시공 순서 이론 영상"
+        <iframe id="ytHomeVideo" src="https://www.youtube.com/embed/Y8wEVa4nokk?cc_load_policy=0&enablejsapi=1&hl=ko" title="ARDEX 전체 시공 순서 이론 영상"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
       </div>
@@ -2781,6 +2781,25 @@ function toggleQA(el) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
   onScroll();
+})();
+</script>
+
+<script>
+(function(){
+  var tag=document.createElement('script');
+  tag.src="https://www.youtube.com/iframe_api";
+  document.head.appendChild(tag);
+  var offCC=function(p){try{p.unloadModule('captions');p.unloadModule('cc');}catch(e){}};
+  window.onYouTubeIframeAPIReady=function(){
+    var el=document.getElementById('ytHomeVideo');
+    if(!el) return;
+    var player=new YT.Player('ytHomeVideo',{
+      events:{
+        'onReady':function(e){offCC(e.target);},
+        'onStateChange':function(e){offCC(e.target);}
+      }
+    });
+  };
 })();
 </script>
 </body>
