@@ -58,7 +58,7 @@
    "uses": "프라이머 — 비흡수면 전용",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/p4k.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -88,7 +88,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX P 4 K, 기존 타일 위 재시공, 금속면, 수용성·무취",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/p4k.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/p4k.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX A 45",
@@ -102,7 +109,7 @@
    "uses": "보수재 — 전처리 단계",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/a45.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -132,7 +139,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX A 45, 초속경, 고강도, 무수축",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/a45.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/a45.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX LQ 92",
@@ -146,7 +160,7 @@
    "uses": "셀프레벨링 — 전처리 단계",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/lq92.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -176,7 +190,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX LQ 92, 한 번에 25mm, 자동 수평, 타일 전용",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/lq92.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/lq92.pdf"
+    }
+   ]
   },
   {
    "name": "실리콘 실링 (ARDEX SN PLUS)",
@@ -190,7 +211,7 @@
    "uses": "실링 — 방수 전 단계",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplus.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -204,7 +225,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, 실리콘 실링 (ARDEX SN PLUS), 코너·조인트, 관통부, 방수 전 필수",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplus.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/snplus.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX WPM 003",
@@ -218,7 +246,7 @@
    "uses": "발코니, 화장실, 욕실, 세탁실 등 타일 붙이는 모든 습식 공간 / 석고보드·합판 방수도 가능",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/wpm003.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -248,7 +276,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX WPM 003, 일액형, 빠른 건조 4h, 규사 살포 불필요",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/wpm003.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/wpm003.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX WPM 003 ROOFTOP",
@@ -262,7 +297,7 @@
    "uses": "방수제 — 외부·옥상 전용",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/rooftop.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -276,7 +311,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX WPM 003 ROOFTOP, 옥상·테라스, 노출 마감 가능",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/rooftop.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/rooftop.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX SK 90 / SK 90 INCORNER",
@@ -318,7 +360,7 @@
    "uses": "타일 접착제 — 최상위 등급",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/x18p.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -344,7 +386,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX X 18 Premium, C2 접착등급, S2 탄성등급, E 오픈타임, 담수 가능",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/x18p.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/x18p.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX X 18",
@@ -358,7 +407,7 @@
    "uses": "타일 접착제 — 고급",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/x18.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -384,7 +433,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX X 18, S1 탄성등급, 대형타일, 수영장 가능",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/x18.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/x18.pdf"
+    }
+   ]
   },
   {
    "name": "디커플링 매트 (크랙 아이솔레이션)",
@@ -426,7 +482,7 @@
    "uses": "타일 접착제 — 일액형",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/d30.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -440,7 +496,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX D 30, 일액형, 고내수성",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/d30.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/d30.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX QUICKBOND",
@@ -454,7 +517,7 @@
    "uses": "타일 접착제 — 초속경",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/quickbond.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -468,7 +531,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX QUICKBOND, 초속경, 빠른 재오픈",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/quickbond.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/quickbond.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX FG 4",
@@ -482,7 +552,7 @@
    "uses": "줄눈제 — 시멘트계 범용",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/fg4.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -508,7 +578,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX FG 4, 범용 추천, 항균, 다양한 색상",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/fg4.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/fg4.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX FG 4 PLUS",
@@ -522,7 +599,7 @@
    "uses": "줄눈제 — 시멘트계 프리미엄",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/fg4plus.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -536,7 +613,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX FG 4 PLUS, 프리미엄, 고탄성",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/fg4plus.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/fg4plus.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX EG 15",
@@ -550,7 +634,7 @@
    "uses": "줄눈제 — 에폭시계",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/eg15.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -580,7 +664,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX EG 15, 수영장·담수, 내화학성, 3액형 혼합",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/eg15.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/eg15.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX SN PLUS",
@@ -594,7 +685,7 @@
    "uses": "하이진 실리콘",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplus.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -624,7 +715,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX SN PLUS, FG4 색상 매칭, 14색상, 비초산형·무취",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplus.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/snplus.pdf"
+    }
+   ]
   },
   {
    "name": "ARDEX SN PLUS MATT",
@@ -638,7 +736,7 @@
    "uses": "하이진 실리콘 — 무광",
    "cautions": [],
    "image": "",
-   "catalog": "",
+   "catalog": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplusmatt.pdf",
    "detailImages": [],
    "stats": [
     {
@@ -652,7 +750,14 @@
    ],
    "keywords": "아덱스, ARDEX, 한국아덱스, 형제상사, 타일시공, ARDEX SN PLUS MATT, 무광 마감, 모던 인테리어",
    "methods": [],
-   "brand": "ARDEX"
+   "brand": "ARDEX",
+   "docs": [
+    {
+     "label": "기술 자료 (PDF)",
+     "url": "https://raw.githubusercontent.com/jh2y24-tech/ARDEX-guide/main/pdf/snplusmatt.pdf",
+     "fallback": "https://jh2y24-tech.github.io/ARDEX-guide/pdf/snplusmatt.pdf"
+    }
+   ]
   }
  ]
 }
